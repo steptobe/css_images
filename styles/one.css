@@ -1,0 +1,39 @@
+body{
+    width: 60%;
+    margin: 50px auto;
+}
+
+#one{
+    width: 196px;
+    height: 98px;
+    background: #eee;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px 2px 100px 2px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#one:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #eee;
+    border: 39px solid blue;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+#one:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: blue;
+    border: 39px solid #eee;
+    border-radius:100%;
+    width: 20px;
+    height: 20px;
+}
